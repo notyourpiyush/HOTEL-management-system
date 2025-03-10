@@ -1,0 +1,823 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    background-color: rgba(0, 0, 128, 0.597);
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    justify-content: space-between;
+  
+}
+.photo{
+    height: 60px;
+    width:77px;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+}
+#home{
+    padding: 2px;
+    margin: 5px;
+    left:40%;
+    top:0%;
+    
+    
+   
+}
+#home:hover{
+animation-name: hey;
+animation-timing-function: ease;
+animation-duration: 2s;
+animation-delay: 5ms;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+}
+
+
+
+@keyframes hey {
+    from{
+        transform:rotate(360deg);
+        
+
+        
+    }
+    to{
+        transform: rotate(0deg);
+       
+    }
+}
+
+
+
+
+
+
+
+
+#recipe{
+    padding: 2px;
+    margin: 5px;
+    left:50%;
+    top:0%;
+}
+
+
+#recipe:hover{
+    animation-name: hey;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 5ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+    
+#blog{
+    padding: 2px;
+    margin: 5px;
+    left:60%;
+    top:0%;
+}
+
+
+
+
+#blog:hover{
+    animation-name: hey;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 5ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+
+    
+
+#contact{
+    padding: 2px;
+    margin: 5px;
+    left:70%;
+    top:0%;
+}
+
+
+#contact:hover{
+    animation-name: hey;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 5ms;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+    
+#bars{
+    padding: 2px;
+    margin: 5px;
+    left:82%;
+    top:0%;
+    
+}
+#location{
+    padding: 2px;
+    margin: 5px;
+    left:86%;
+    top:0%;
+    
+}
+
+select{
+    padding: 10px 15px;
+    margin: 0px;
+    border-radius: 15px;
+    left:88%;
+    top:0%;
+    position: absolute;
+    height: 35px;
+    width:135px;
+    cursor: pointer;
+}
+
+.para{
+    position: absolute;
+    top:2%;
+    left:0%;
+    justify-content: space-evenly;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+   
+
+}
+#op{ padding: 25%;
+    
+    animation-name: virus;
+animation-duration: 6s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-delay: -2s;
+animation-fill-mode: inherit;
+   
+
+}
+
+.button{
+    color: black;
+    font-size: 18px;
+    background-color: rgb(149, 252, 6);
+    position:absolute;
+    top:68%;
+    left:25%;
+    font-family: "Rowdies", serif;
+  font-weight: 250;
+  font-style: normal;
+  border-color:none;
+text-shadow: rgb(13, 37, 250);
+padding: 5px 25px;
+border-radius: 15px;
+cursor: pointer;
+
+  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.food{
+    position: absolute;
+    left:75%;
+    top:10%;
+    right:0%;
+    animation-name: ani;
+animation-duration: 6s;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+animation-delay: 0s;
+animation-fill-mode: inherit;
+ 
+}
+select{
+    box-sizing: border-box;
+    
+}
+optgroup{
+    background-color: lightyellow;
+}
+
+@keyframes ani {
+    from{
+        transform: translatez(-100%);
+        opacity: 0;
+
+        
+    }
+    to{
+        transform: translatez(0%);
+        opacity: 5;
+    }
+}
+@keyframes virus{
+    from{
+        
+        transform:translatey(-100%);
+        word-spacing: -25px;
+    right: -100px;
+    
+        
+    }
+    to{
+       
+        transform:translatey(0%);
+        word-spacing: 0px;
+        right: 0px;
+        
+    }
+}
+
+@keyframes button{
+    from{
+        transform: translatex(-30%);
+        opacity: 3;
+        
+        
+    }
+    to{
+        transform: translatex(125%);
+        opacity: -1;
+      
+    }
+}
+
+.vi{
+    color: rgb(160, 60, 60);
+    font-weight: bolder;
+    justify-content: center;
+    align-self: center;
+    font-size:52px;
+    margin-top: 58%;
+    left:25%;
+    position: absolute;
+    animation: vi both ;
+    animation-timeline: view(70% 5%);
+    margin-bottom: 2px;
+   
+    
+}
+@keyframes vi{
+    0%{
+        transform: translatey(0%);
+        opacity: 0;
+    
+    }
+   
+    to{
+        transform: translatey(-100%);
+        opacity: 1;
+        
+        
+    }
+}
+
+#box1{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    margin-top:65%;
+    left: 5%;
+    display: inline-block;
+   
+   
+    
+  
+    
+}
+#box1:hover{
+animation-name: box1;
+animation-timing-function: ease-in;
+animation-duration: 2s;
+animation-delay: 0s;
+animation-iteration-count: 1;
+
+
+
+
+
+}
+#box2{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 66%;
+    left: 19%;
+    display: inline-block;
+      
+ 
+    
+    
+}
+
+#box2:hover{
+    animation-name: box1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;}
+
+#box3{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 65.2%;
+    left: 33%;
+    display: inline-block;
+      
+ 
+}
+#box3:hover{
+    animation-name: box1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;}
+#box4{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 65%;
+    left: 45%;
+    display: inline-block;
+      
+   
+   
+}
+#box4:hover{
+    animation-name: box1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;}
+#box5{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 65%;
+    left: 58.3%;
+    display: inline-block;
+      
+  
+    
+   
+    
+}
+#box5:hover{
+    animation-name: box1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;}
+#box6{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 65%;
+    left: 72.5%;
+    display: inline-block;
+      
+   
+    
+   
+    
+}
+#box6:hover{
+    animation-name: box1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;}
+#box7{
+    color: brown;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    margin-top: 65%;
+    left:88%;
+    display: inline-block;
+      
+    
+}
+   #POWER{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 14%;
+    margin-top: -6px;
+    
+   }
+   #po{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 11%;
+    margin-top: 2px;
+   }
+   #samosa{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 9.5%;
+    margin-top: 3px;
+   }
+    #dokla{
+        text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 13%;
+    margin-top: -6px;
+    }
+    #jalebi{
+        text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 18%;
+    margin-top: -9px;
+    }
+    #gulab{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 3%;
+        margin-top: -9px;
+    }
+    #pav{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 6%;
+        margin-top: -9px;
+    }
+    #box7:hover{
+        animation-name: box1;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+    }
+
+
+@keyframes box1{
+    from{
+        transform: translatey(0%);
+
+        
+    }
+    to{
+        transform: translatey(-25%);
+       
+        
+    }
+}
+
+
+
+@media only screen and (max-width:650px){
+
+
+    nav{
+        background-color: rgba(0, 0, 128, 0.597);
+    }
+    ul li{
+        list-style: none;
+        display: inline-block;
+        position: absolute;
+        justify-content: space-between;
+      
+    }
+
+    
+    .photo{
+        height: 70px;
+        width:77px;
+        position: absolute;
+        top: 0%;
+        left: 5%;
+    }
+    #home{
+        padding: 2px;
+        margin: 5px;
+        left:32%;
+        top:3%;
+       
+    }
+   
+    
+    #recipe{
+        padding: 2px;
+        margin: 5px;
+        left:55%;
+        top:3%;
+    }
+  
+        
+    #blog{
+        padding: 2px;
+        margin: 5px;
+        left:76%;
+        top:3%;
+    }
+    
+    
+    
+    
+    
+        
+    
+    #contact{
+        padding: 2px;
+        margin: 5px;
+        left:-332%;
+        top:9%;
+    }
+    
+    
+   
+    #bars{
+        padding: 2px;
+        margin: 5px;
+        left:60%;
+        top:-209%;
+        
+    }
+    #location{
+        padding: 2px;
+        margin: 5px;
+        left:91%;
+        top:3%;
+        
+    }
+    
+    select{
+        padding: 5px 15px;
+       
+        border-radius: 10px;
+        left:98%;
+        top:3%;
+        position: absolute;
+        height: 30px;
+        width:115px;
+        cursor: pointer;
+    }
+
+
+
+
+    .para{
+        position: absolute;
+        top:20%;
+        left:-30%;
+        justify-content: space-evenly;
+        font-family: "Libre Baskerville", serif;
+        font-weight: 700;
+        font-style: normal;
+        
+       
+    
+    }
+    #skelaton{
+        height: 250px;
+        width: 250px;
+    }
+    
+
+
+    .button{
+        color: black;
+        font-size: 18px;
+        background-color: rgb(149, 252, 6);
+        position:absolute;
+        top:78%;
+        left:25%;
+        font-family: "Rowdies", serif;
+      font-weight: 250;
+      font-style: normal;
+      border-color:none;
+    text-shadow: rgb(13, 37, 250);
+    padding: 5px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+      
+    }
+    
+   
+    .vi{
+        color: rgb(160, 60, 60);
+        font-weight: bolder;
+        justify-content: center;
+        align-self: center;
+        font-size:52px;
+        margin-top: 250%;
+        left:25%;
+        position: absolute;
+        animation: vi both ;
+        animation-timeline: view(70% 5%);
+        margin-bottom: 2px;
+       
+        
+    }
+   
+    #box1{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position:absolute;
+        margin-top:320%;
+        left: 5%;
+        display: inline-block;
+       
+       
+        
+      
+        
+    }
+    
+    #box2{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 320%;
+        left: 60%;
+        display: inline-block;
+          
+     
+        
+        
+    }
+   
+    #box3{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 370%;
+        left: 5%;
+        display: inline-block;
+          
+     
+    }
+   
+    #box4{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 370%;
+        left: 60%;
+        display: inline-block;
+          
+       
+       
+    }
+   
+    #box5{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 420%;
+        left: 5%;
+        display: inline-block;
+          
+      
+        
+       
+        
+    }
+    
+    #box6{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 420%;
+        left: 60%;
+        display: inline-block;
+          
+       
+        
+       
+        
+    }
+   
+    #box7{
+        color: brown;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        margin-top: 470%;
+        left:5%;
+        display: inline-block;
+          
+        
+    }
+       #POWER{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 14%;
+        margin-top: -6px;
+        
+       }
+       #po{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 11%;
+        margin-top: 2px;
+       }
+       #samosa{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 9.5%;
+        margin-top: 3px;
+       }
+        #dokla{
+            text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 13%;
+        margin-top: -6px;
+        }
+        #jalebi{
+            text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        left: 18%;
+        margin-top: -9px;
+        }
+        #gulab{
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            left: 3%;
+            margin-top: -9px;
+        }
+        #pav{
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            left: 6%;
+            margin-top: -9px;
+        }
+        #box7:hover{
+            animation-name: box1;
+            animation-timing-function: ease-in;
+            animation-duration: 2s;
+            animation-delay: 0s;
+            animation-iteration-count: 1;
+        }
+    
+    
+    @keyframes box1{
+        from{
+            transform: translatey(0%);
+    
+            
+        }
+        to{
+            transform: translatey(-25%);
+           
+            
+        }
+    }
+
+
+
+}

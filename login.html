@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body >
+     <img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg" height="600px" width="1650px" id="bg">
+     <img src="https://purepng.com/public/uploads/medium/purepng.com-donutdonutdoughnutsweetsnack-1411527417357rohhh.png" class="img">
+<img src="https://images.vexels.com/media/users/3/323036/isolated/preview/59f1f48f6cf50cce387c066b11b29978-chocolate-candies-color-stroke-sweets.png" class="img2">
+    <div id="bop">
+        <h1>login account</h1>
+        <p>enter your information.</p>
+       
+        <form onsubmit="validateLogin(event)">
+            <input type="email" placeholder="Enter your Email" id="email">
+            <input type="password" placeholder="Enter your Password" id="pass">
+            <button type="submit">Submit</button>
+        </form>
+        
+        <!-- Hidden link that JavaScript will click after validation -->
+        <a id="loginLink" href="base.html" style="display: none;"></a>
+        
+    </div>
+  <script src="login.js"></script>
+</body>
+</html>

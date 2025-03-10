@@ -1,0 +1,2390 @@
+p{
+    font-family: serif;
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
+    text-align: center;
+    color: crimson;
+    font-size: 55px;
+    margin-top: 65%;
+    text-transform:capitalize;
+    animation: cap both;
+    animation-timeline: view(70% 5%);
+  
+    
+}
+
+.blog{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+
+    animation: bug both;
+animation-iteration-count: 1;  
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    overflow-x: hidden;
+}
+#blog{
+    text-transform: capitalize;
+    color: brown;
+    font-size: 15px;
+    align-items: flex-start;
+    position: absolute;
+    left: -59%;
+    top: -48%;
+    padding: 35%;
+    margin: 25%;
+    word-spacing: 5px;
+    animation: bug both;
+animation-iteration-count: 1;  
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out;
+    overflow-x: hidden;
+    animation-delay: 1s;
+    margin-bottom: 25px;
+   
+}
+
+.blog2{
+    position: absolute;
+    top: 5%;
+    right: 0%;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 450px;
+    animation: bug2 both;
+animation-iteration-count: 1;  
+    animation-duration: 1s;   overflow-x: hidden;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+   
+
+    #blog2{
+        text-transform: capitalize;
+        color: brown;
+        font-size: 15px;
+        align-items: flex-start;
+        position: absolute;
+        right: -58%;
+        top: -50%;
+        padding: 35%;
+        margin: 25%;
+        word-spacing: 15px;
+        animation: bug2 both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s; 
+        animation-timing-function: ease-in-out;
+        overflow-x: hidden;
+        animation-delay: 1s;
+       
+    }
+    
+
+@keyframes cap{
+    from{
+        transform: translateY(0%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-100%);
+        opacity: 10;
+    }
+}
+@keyframes bug{
+    from{
+        transform: translatex(-50%);
+       
+       opacity: 0;
+    }
+    to{
+        transform:translatex(0%);
+     
+     opacity: 5;
+     
+    }
+}
+
+@keyframes bug2{
+    from{
+        transform: translatex(40%);
+    
+       opacity: 0;
+    }
+    to{
+        transform:translatex(0%);
+     
+     opacity: 5;
+     
+    }
+}
+
+
+
+.img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    justify-content: center;
+    align-items: center;
+}
+#cold{
+position: absolute;
+top: 70%;
+left: 25%;
+justify-content: center;
+align-items: center;
+}
+
+h4{
+    position: absolute;
+top: 5%;
+left: 77%;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+background-color: white;
+color: red;
+padding: 2px 5px;
+border-radius: 25px;
+}
+
+.price {
+    color: #28a745;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#puchka{
+    padding: 2px 5px;
+    left: 77%;
+}
+#double{
+    padding: 2px 5px;
+    left: 77%;
+}
+#lahor{
+    padding: 2px 5px;
+    left: 77%;
+}
+#deshi{
+    padding: 2px 5px;
+    left: 77%;
+}
+
+
+#cold{
+    position: absolute;
+    top:70%;
+    left: 26%;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.pastry{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 45px;
+    left: 30%;
+    justify-content: center;
+    align-items: center;
+}
+#pastry{
+    position: absolute;
+    top:70%;
+    left: 35%;
+    justify-content: center;
+    align-items: center;
+    }
+
+.cake{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 27%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sweets{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cake{
+    position: absolute;
+    top: 72%;
+    left: 39%;
+    justify-content: center;
+    align-items: center;
+    }
+#sweets{
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .sandwich{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 35px;
+        left: 18%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sandwich{
+        position: absolute;
+        top: 78%;
+        left: 25%;
+        justify-content: center;
+        align-items: center;
+        }
+.jalebi{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    left: 12%;
+    justify-content: center;
+    align-items: center;
+}
+#jalebi{
+    position: absolute;
+    top: 78%;
+    left: 33%;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .samosa{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 30px;
+        left: 12%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #samosa{
+        position: absolute;
+        top: 78%;
+        left: 33%;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .kachori{
+            width: 160px;
+            height: 160px;
+            position: absolute;
+            top: 15px;
+            left: 10%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #kachori{
+            position: absolute;
+            top: 78%;
+            left: 31.5%;
+            justify-content: center;
+            align-items: center;
+            }
+
+
+            .maggi{
+                width: 135px;
+                height: 135px;
+                position: absolute;
+                top: 25px;
+                left: 15%;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #maggi{
+                position: absolute;
+                top: 78%;
+                left: 35%;
+                justify-content: center;
+                align-items: center;
+                }
+
+                .chole{
+                    width: 165px;
+                    height: 165px;
+                    position: absolute;
+                    top: 25px;
+                    left: 12%;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                #chole{
+                    position: absolute;
+                    top: 78%;
+                    left: 20%;
+                    justify-content: center;
+                    align-items: center;
+                    }
+
+                    .momos{
+                        width: 150px;
+                        height: 145px;
+                        position: absolute;
+                        top: 23px;
+                        left: 12%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+    
+                    #momos{
+                        position: absolute;
+                        top: 80%;
+                        left: 32%;
+                        justify-content: center;
+                        align-items: center;
+                        }
+    
+                        .dal{
+                            width: 145px;
+                            height: 145px;
+                            position: absolute;
+                            top: 23px;
+                            left: 12%;
+                            justify-content: center;
+                            align-items: center;
+                        }
+        
+                        #dal{
+                            position: absolute;
+                            top: 85%;
+                            left: 29%;
+                            justify-content: center;
+                            align-items: center;
+                            }
+        
+
+                            .buja{
+                                width: 140px;
+                                height: 140px;
+                                position: absolute;
+                                top: 23px;
+                                left: 12%;
+                                justify-content: center;
+                                align-items: center;
+                            }
+            
+                            #buja{
+                                position: absolute;
+                                top: 85%;
+                                left: 29%;
+                                justify-content: center;
+                                align-items: center;
+                                }
+            
+
+                                .idli{
+                                    width: 180px;
+                                    height: 140px;
+                                    position: absolute;
+                                    top: 23px;
+                                    left: 5%;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                
+                                #idli{
+                                    position: absolute;
+                                    top: 83%;
+                                    left: 32%;
+                                    justify-content: center;
+                                    align-items: center;
+                                    }
+
+                                    .dosa{
+                                        width: 100x;
+                                        height: 100px;
+                                        position: absolute;
+                                        top: 38px;
+                                        left: 5%;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                    
+                                    #dosa{
+                                        position: absolute;
+                                        top: 75%;
+                                        left: 37%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        }
+    
+
+                                        .gulab{
+                                            width: 130px;
+                                            height: 130px;
+                                            position: absolute;
+                                            top: 20px;
+                                            left: 15%;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                        
+                                        #gulab{
+                                            position: absolute;
+                                            top: 73%;
+                                            left: 21%;
+                                            justify-content: center;
+                                            align-items: center;
+                                            }
+
+                                            .ras{
+                                                width: 165px;
+                                                height: 165px;
+                                                position: absolute;
+                                                top: 10px;
+                                                left: 8%;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                            
+                                            #ras{
+                                                position: absolute;
+                                                top: 79%;
+                                                left: 28%;
+                                                justify-content: center;
+                                                align-items: center;
+                                                }
+
+                                                .mung{
+                                                    width: 165px;
+                                                    height: 165px;
+                                                    position: absolute;
+                                                    top: 7px;
+                                                    left: 8%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                
+                                                #mung{
+                                                    position: absolute;
+                                                    top: 79%;
+                                                    left: 21%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    }
+                                                    .beat{
+                                                        width: 185px;
+                                                        height: 165px;
+                                                        position: absolute;
+                                                        top: 7px;
+                                                        left: 6%;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                    }
+                                    
+                                                    #beat{
+                                                        position: absolute;
+                                                        top: 79%;
+                                                        left: 17%;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        }
+                                                        .loki{
+                                                            width: 175px;
+                                                            height: 165px;
+                                                            position: absolute;
+                                                            top: 7px;
+                                                            left: 6%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                        
+                                                        #loki{
+                                                            position: absolute;
+                                                            top: 79%;
+                                                            left: 22%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            }
+                                                            .pani{
+                                                                width: 145px;
+                                                                height: 145px;
+                                                                position: absolute;
+                                                                top: 7px;
+                                                                left: 9%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                            }
+                                            
+                                                            #pani{
+                                                                position: absolute;
+                                                                top: 77%;
+                                                                left: 25%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                }
+        
+                                                                .pizza{
+                                                                    width: 135px;
+                                                                    height: 135px;
+                                                                    position: absolute;
+                                                                    top: 20px;
+                                                                    left: 12%;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                }
+                                                
+                                                                #pizza{
+                                                                    position: absolute;
+                                                                    top: 81%;
+                                                                    left: 34%;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    }
+                                                                    .lasi{
+                                                                        width: 140px;
+                                                                        height: 140px;
+                                                                        position: absolute;
+                                                                        top: 10px;
+                                                                        left: 12%;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                    }
+                                                    
+                                                                    #lasi{
+                                                                        position: absolute;
+                                                                        top: 74%;
+                                                                        left: 35%;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                      }
+                                                                        .paratha{
+                                                                            width: 210px;
+                                                                            height: 210px;
+                                                                            position: absolute;
+                                                                            top: -30px;
+                                                                            left: 1%;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                        }
+                                                        
+#paratha{
+                                                                            position: absolute;
+                                                                            top: 74%;
+                                                                            left: 23%;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            }
+                                                                           
+                                                                            .bhindi{
+                                                                                width: 170px;
+                                                                                height: 170px;
+                                                                                position: absolute;
+                                                                                top: 10px;
+                                                                                left: 7%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #bhindi{
+                                                                                position: absolute;
+                                                                                top: 74%;
+                                                                                left: 27%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+
+
+
+
+
+                                                                              .sev{
+                                                                                width: 110px;
+                                                                                height: 110px;
+                                                                                position: absolute;
+                                                                                top: 22px;
+                                                                                left: 20%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #sev{
+                                                                                position: absolute;
+                                                                                top: 70%;
+                                                                                left: 31%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .kulfi{
+                                                                                width: 130px;
+                                                                                height: 110px;
+                                                                                position: absolute;
+                                                                                top: 30px;
+                                                                                left: 23%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #kulfi{
+                                                                                position: absolute;
+                                                                                top: 70%;
+                                                                                left: 35%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .faluda{
+                                                                                width: 150px;
+                                                                                height: 130px;
+                                                                                position: absolute;
+                                                                                top: 13px;
+                                                                                left: 13%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #faluda{
+                                                                                position: absolute;
+                                                                                top: 71%;
+                                                                                left: 33%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .mock{
+                                                                                width: 140px;
+                                                                                height: 140px;
+                                                                                position: absolute;
+                                                                                top: 10px;
+                                                                                left: 15%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #mock{
+                                                                                position: absolute;
+                                                                                top: 74%;
+                                                                                left: 27%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .chaval{
+                                                                                width: 100px;
+                                                                                height: 80px;
+                                                                                position: absolute;
+                                                                                top: 50px;
+                                                                                left: 19%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #chaval{
+                                                                                position: absolute;
+                                                                                top: 74%;
+                                                                                left: 25%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            
+
+
+
+#icon{
+    font-size: 45px;
+    color: rgb(254, 205, 8);
+}
+.boxe1{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+  margin-top: 10.8%;
+ cursor: pointer;
+    justify-content: space-around;
+
+    border-radius: 15px;
+    position: relative;
+   
+    left:25px;
+    animation: ani both;
+    animation-timeline: view();
+    
+}
+.boxe2{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+ 
+    justify-content: space-around;
+    margin-top: 10.8%;
+    cursor: pointer;
+    
+    border-radius: 15px;
+    position: relative;
+    
+    left:65px;
+    animation: ani both;
+    animation-timeline: view();
+}
+.boxe3{
+    background-color: chocolate;
+    height: 200px;cursor: pointer;
+    width: 200px;
+    display: inline-block;
+ 
+    justify-content: space-around;
+    animation: ani both;
+    animation-timeline: view();
+    
+    border-radius: 15px;
+    position: relative;
+    margin-top: 10.8%;
+ 
+    left:95px;
+ 
+}
+.boxe4{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    display:inline-block;
+    margin-top:10.8%;
+ 
+    animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+
+    
+    border-radius: 15px;
+    position: relative;
+    left:125px;
+
+    
+}
+.boxe5{
+    background-color: chocolate;
+    height: 200px;cursor: pointer;
+    width: 200px;
+    display: inline-block;
+    
+    margin-top: 10.8%;
+    justify-content: space-around;
+    animation: ani both;
+    animation-timeline: view();
+    
+    border-radius: 15px;
+    position: relative;
+    
+    left:155px;cursor: pointer;
+  
+}
+.boxe6{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+  
+    justify-content: space-around;
+    cursor: pointer;
+  
+    display: inline-block;
+
+    border-radius: 15px;
+    position: relative;
+    top: 35px;
+    left:25px;
+    animation: ani both;
+    animation-timeline: view();
+}
+.boxe7{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;animation: ani both;
+    animation-timeline: view();
+    
+    justify-content: space-around;
+    display: inline-block;cursor: pointer;
+
+    border-radius: 15px;
+    position: relative;
+    top: 35px;
+    left:65px;
+}
+.boxe8{
+    background-color: chocolate;
+    height: 200px;cursor: pointer;
+    animation: ani both;
+    animation-timeline: view();
+    width: 200px;
+    display:inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 35px;
+    left:95px;
+    justify-content: space-around;
+    
+}
+.boxe9{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;animation: ani both;
+    animation-timeline: view();
+    position: relative;
+    top: 35px;cursor: pointer;
+    left:125px;
+    justify-content: space-around;
+   
+}
+.boxe10{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    top: 35px;animation: ani both;
+    animation-timeline: view();
+    left:155px;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.boxe11{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;animation: ani both;
+    animation-timeline: view();
+    position: relative;
+    top: 45px;
+    left:25px;
+    justify-content: space-around;
+    
+    
+}
+.boxe12{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 45px;cursor: pointer;
+    left:65px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+    
+}
+.boxe13{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;cursor: pointer;
+    top: 45px;
+    left:95px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+ 
+}
+.boxe14{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 45px;animation: ani both;
+    animation-timeline: view();cursor: pointer;
+    left:125px;
+    justify-content: space-around;
+    
+}
+.boxe15{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    top: 45px;
+    left:155px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+  
+}
+.boxe16{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;cursor: pointer;
+  
+    justify-content: space-around;
+  
+    display: inline-block;animation: ani both;
+    animation-timeline: view();
+
+    border-radius: 15px;
+    position: relative;
+    top: 55px;
+    left:25px;
+}
+.boxe17{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;cursor: pointer;
+    position: relative;animation: ani both;
+    animation-timeline: view();
+    top: 55px;
+    left:65px;
+    justify-content: space-around;
+    display: inline-block;
+}
+.boxe18{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 55px;animation: ani both;
+    animation-timeline: view();cursor: pointer;
+    left:95px;
+    justify-content: space-around;
+    
+}
+.boxe19{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 55px;
+    left:125px;animation: ani both;
+    animation-timeline: view();cursor: pointer;
+    justify-content: space-around;
+   
+}
+.boxe20{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;animation: ani both;
+    animation-timeline: view();
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 55px;
+    left:155px;cursor: pointer;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.boxe21{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;cursor: pointer;
+    top: 65px;animation: ani both;
+    animation-timeline: view();
+    left:25px;
+    justify-content: space-around;
+    
+    
+}
+.boxe22{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;cursor: pointer;
+    border-radius: 15px;
+    position: relative;animation: ani both;
+    animation-timeline: view();
+    top: 65px;
+    left:65px;
+    justify-content: space-around;
+    
+}
+.boxe23{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 65px;
+    left:95px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+ 
+}
+.boxe24{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    border-radius: 15px;cursor: pointer;
+    position: relative;
+    top: 65px;
+    left:125px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+    
+}
+.boxe25{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display: inline-block;cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    top: 65px;
+    left:155px;animation: ani both;
+    animation-timeline: view();
+    justify-content: space-around;
+  
+}
+.boxe26{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+  
+    justify-content: space-around;cursor: pointer;
+    border-radius: 15px;
+    position: relative;
+    top: 75px;animation: ani both;
+    animation-timeline: view();
+    left:25px;
+    display: inline-block;  margin-bottom: 20%;
+}
+.boxe27{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    position: relative;
+    top: 75px;animation: ani both;cursor: pointer;
+    animation-timeline: view();
+    left:65px;
+    margin-bottom: 20%;
+    justify-content: space-around;
+    display: inline-block;
+}
+.boxe28{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;
+    display:inline-block;cursor: pointer;
+    border-radius: 15px;animation: ani both;
+    animation-timeline: view();
+    position: relative;
+    top: 75px;
+    left:95px;  margin-bottom: 20%;
+    justify-content: space-around;
+    
+}
+.boxe29{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;cursor: pointer;
+    display: inline-block;animation: ani both;
+    animation-timeline: view();
+    border-radius: 15px;
+    position: relative;
+    top: 75px;
+    left:125px;  margin-bottom: 20%;
+    justify-content: space-around;
+   
+}
+.boxe30{
+    background-color: chocolate;
+    height: 200px;
+    width: 200px;cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: 75px;animation: ani both;
+    animation-timeline: view();
+    left:155px;
+    justify-content: space-around;
+    margin-bottom: 20%;
+    
+}
+
+
+
+
+@keyframes ani{
+    0%{
+      
+        filter: blur(40px);
+
+    }
+    45%,55%{
+       
+        filter: blur(0);
+
+    }
+   100%{ 
+    filter: blur(40px);
+   }
+}
+
+
+
+@media only screen and (max-width:650px){
+
+    #blog{
+        text-transform: capitalize;
+        color: brown;
+        font-size: 15px;
+        align-items: flex-start;
+        position: absolute;
+        left: -2%;
+        top: 40%;
+        padding: 5%;
+        margin: 25%;
+        word-spacing: 5px;
+        animation: bug both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s; 
+        animation-timing-function: ease-in-out;
+        overflow-x: hidden;
+        animation-delay: 1s;
+        margin-bottom: 25px;
+       
+    }
+    .blog{
+        position: absolute;
+        top: 1%;
+        left: -6%;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+    
+        animation: bug both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s; 
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        overflow-x: hidden;
+    }
+    
+    #blog2{
+        text-transform: capitalize;
+        color: brown;
+        font-size: 15px;
+        align-items: flex-start;
+        position: absolute;
+        right: -5%;
+        top: 175%;
+        padding: 5%;
+        margin: 25%;
+        word-spacing: 15px;
+        animation: bug2 both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s; 
+        animation-timing-function: ease-in-out;
+        overflow-x: hidden;
+        animation-delay: 1s;
+       
+    }
+    .blog2{
+        position: absolute;
+        top: 130%;
+        right: -10%;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 400px;
+        animation: bug2 both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s;   overflow-x: hidden;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+    }
+     
+
+   
+    .blog{
+        position: absolute;
+        top: 1%;
+        left: -6%;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        width: 350px;
+    
+        animation: bug both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s; 
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        overflow-x: hidden;
+    }
+    
+   
+    .blog2{
+        position: absolute;
+        top: 130%;
+        right: -10%;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 400px;
+        animation: bug2 both;
+    animation-iteration-count: 1;  
+        animation-duration: 1s;   overflow-x: hidden;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+    }
+     
+ 
+  
+
+
+    
+
+
+
+    p{
+        font-family: serif;
+        font-weight: 800;
+        font-style: normal;
+        justify-content: center;
+        text-align: center;
+        color: crimson;
+        font-size: 55px;
+        margin-top: 680%;
+        text-transform:capitalize;
+        animation: cap both;
+        animation-timeline: view(70% 5%);
+      
+        
+    }
+
+    .boxe1{
+        background-color: chocolate;
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+      margin-top: 10.8%;
+     cursor: pointer;
+        justify-content: space-around;
+    
+        border-radius: 15px;
+        position: relative;
+       
+        left:10px;
+        animation: a both;
+        animation-timeline: view();
+        
+    }
+    .boxe2{
+        background-color: chocolate;
+        height: 150px;
+        width: 150px;
+        display: inline-block;
+     
+        justify-content: space-around;
+        margin-top: 10.8%;
+        cursor: pointer;
+        
+        border-radius: 15px;
+        position: relative;
+        
+        left:40px;
+        animation: a both;
+        animation-timeline: view();
+    }
+
+
+
+    h4{
+        position: absolute;
+    top: 5%;
+    left: 65%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    color: red;
+    padding: 2px 5px;
+    border-radius: 25px;
+    }
+    
+    #cold{
+        position: absolute;
+        top:84%;
+        left: 18%;
+        justify-content: center;
+        align-items: center;
+        }
+    
+
+        #pastry{
+            position: absolute;
+            top:84%;
+            left: 35%;
+            justify-content: center;
+            align-items: center;
+            }
+            .boxe3{
+                background-color: chocolate;
+                height: 150px;cursor: pointer;
+                width: 150px;
+                display: inline-block;
+             
+                justify-content: space-around;
+                animation: aboth;
+                animation-timeline: view();
+                
+                border-radius: 15px;
+                position: relative;
+                margin-top: 10.8%;
+             
+                left:10px;
+             
+            }
+            .boxe4{
+                background-color: chocolate;
+                height: 150px;
+                width: 150px;
+                cursor: pointer;
+                display:inline-block;
+                margin-top:10.8%;
+             
+                animation: aboth;
+                animation-timeline: view();
+                justify-content: space-around;
+            
+                
+                border-radius: 15px;
+                position: relative;
+                left:40px;
+            
+                
+            }
+            #cake{
+                position: absolute;
+                top: 84%;
+                left: 37%;
+                justify-content: center;
+                align-items: center;
+                }
+            #sweets{
+                position: absolute;
+                top: 84%;
+                left: 32%;
+                justify-content: center;
+                align-items: center;
+                }
+            
+                .cake{
+                    width: 80px;
+                    height: 80px;
+                    position: absolute;
+                    top: 40px;
+                    left: 25%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                
+                .sweets{
+                    width: 120px;
+                    height: 120px;
+                    position: absolute;
+                    top: 20px;
+                    left: 15%;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+
+
+
+
+
+                .boxe5{
+                    background-color: chocolate;
+                    height: 150px;cursor: pointer;
+                    width: 150px;
+                    display: inline-block;
+                    
+                    margin-top: 10.8%;
+                    justify-content: space-around;
+                    animation: a both;
+                    animation-timeline: view();
+                    
+                    border-radius: 15px;
+                    position: relative;
+                    
+                    left:10px;cursor: pointer;
+                  
+                }
+                .boxe6{
+                    background-color: chocolate;
+                    height: 150px;
+                    width: 150px;
+                  
+                    justify-content: space-around;
+                    cursor: pointer;
+                  
+                    display: inline-block;
+                
+                    border-radius: 15px;
+                    position: relative;
+                    top: 0px;
+                    left:40px;
+                    animation: i both;
+                    animation-timeline: view();
+                }
+
+
+
+                .sandwich{
+                    width: 80px;
+                    height: 80px;
+                    position: absolute;
+                    top: 38px;
+                    left: 25%;
+                    justify-content: center;
+                    align-items: center;
+                }
+            
+                #sandwich{
+                    position: absolute;
+                    top: 78%;
+                    left: 22%;
+                    justify-content: center;
+                    align-items: center;
+                    }
+            .jalebi{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 30px;
+                left: 15%;
+                justify-content: center;
+                align-items: center;
+            }
+            #jalebi{
+                position: absolute;
+                top: 78%;
+                left: 30%;
+                justify-content: center;
+                align-items: center;
+                }
+            
+
+
+
+
+                .boxe7{
+                    background-color: chocolate;
+                    height: 150px;
+                    width: 150px;animation: aboth;
+                    animation-timeline: view();
+                    
+                    justify-content: space-around;
+                    display: inline-block;cursor: pointer;
+                    
+                    border-radius: 15px;
+                    position: relative;
+                    top: 35px;
+                    left:10px;
+                }
+                .boxe8{
+                    background-color: chocolate;
+                    height: 150px;cursor: pointer;
+                    animation: a both;
+                    animation-timeline: view();
+                    width: 150px;
+                    display:inline-block;
+                    border-radius: 15px;
+                    position: relative;
+                    top: 35px; 
+                    left:40px;
+                    justify-content: space-around;
+                    
+                }
+
+                .samosa{
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    top: 30px;
+                    left: 15%;
+                    justify-content: center;
+                    align-items: center;
+                }
+            
+                #samosa{
+                    position: absolute;
+                    top: 78%;
+                    left: 28%;
+                    justify-content: center;
+                    align-items: center;
+                    }
+            
+                    .kachori{
+                        width: 110px;
+                        height: 110px;
+                        position: absolute;
+                        top: 22px;
+                        left: 15%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+            
+                    #kachori{
+                        position: absolute;
+                        top: 80%;
+                        left: 27%;
+                        justify-content: center;
+                        align-items: center;
+                        }
+            
+            
+
+                        .boxe9{
+                            background-color: chocolate;
+                            height: 150px;
+                            width: 150px;
+                            display: inline-block;
+                            border-radius: 15px;animation: i both;
+                            animation-timeline: view();
+                            position: relative;
+                            top: 65px;cursor: pointer;
+                            left:10px;
+                            justify-content: space-around;
+                           
+                        }
+                        .boxe10{
+                            background-color: chocolate;
+                            height: 150px;
+                            width: 150px;
+                            display: inline-block;cursor: pointer;
+                            border-radius: 15px;
+                            position: relative;
+                            top: 65px;animation: i both;
+                            animation-timeline: view();
+                            left:40px;
+                            justify-content: space-around;
+                            
+                        }
+                        
+                   
+            .maggi{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 25px;
+                left: 15%;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #maggi{
+                position: absolute;
+                top: 80%;
+                left: 28%;
+                justify-content: center;
+                align-items: center;
+                }
+
+                .chole{
+                    width: 120px;
+                    height: 120px;
+                    position: absolute;
+                    top: 13px;
+                    left: 12%;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                #chole{
+                    position: absolute;
+                    top: 72%;
+                    left: 30%;
+                    justify-content: center;
+                    align-items: center;
+                    }
+     
+
+
+                    .boxe11{
+                        background-color: chocolate;
+                        height: 150px;
+                        width: 150px;cursor: pointer;
+                        display: inline-block;
+                        border-radius: 15px;animation: i both;
+                        animation-timeline: view();
+                        position: relative;
+                        top: 95px;
+                        left:10px;
+                        justify-content: space-around;
+                        
+                        
+                    }
+                    .boxe12{
+                        background-color: chocolate;
+                        height: 150px;
+                        width: 150px;
+                        display: inline-block;
+                        border-radius: 15px;
+                        position: relative;
+                        top: 95px;cursor: pointer;
+                        left:40px;animation: i both;
+                        animation-timeline: view();
+                        justify-content: space-around;
+                        
+                    }
+                    .momos{
+                        width: 105px;
+                        height: 105px;
+                        position: absolute;
+                        top: 25px;
+                        left: 15%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+    
+                    #momos{
+                        position: absolute;
+                        top: 80%;
+                        left: 30%;
+                        justify-content: center;
+                        align-items: center;
+                        }
+    
+                        .dal{
+                            width: 100px;
+                            height: 100px;
+                            position: absolute;
+                            top: 30px;
+                            left: 18%;
+                            justify-content: center;
+                            align-items: center;
+                        }
+        
+                        #dal{
+                            position: absolute;
+                            top: 85%;
+                            left: 28%;
+                            justify-content: center;
+                            align-items: center;
+                            }
+        
+
+
+                            .boxe13{
+                                background-color: chocolate;
+                                height: 150px;
+                                width: 150px;
+                                display: inline-block;
+                                border-radius: 15px;
+                                position: relative;cursor: pointer;
+                                top: 125px;
+                                left:10px;animation: i both;
+                                animation-timeline: view();
+                                justify-content: space-around;
+                             
+                            }
+                            .boxe14{
+                                background-color: chocolate;
+                                height: 150px;
+                                width: 150px;
+                                display:inline-block;
+                                border-radius: 15px;
+                                position: relative;
+                                top: 125px;animation:i both;
+                                animation-timeline: view();cursor: pointer;
+                                left:40px;
+                                justify-content: space-around;
+                                
+                            }
+
+
+
+                            .buja{
+                                width: 100px;
+                                height: 100px;
+                                position: absolute;
+                                top: 33px;
+                                left: 18%;
+                                justify-content: center;
+                                align-items: center;
+                            }
+            
+                            #buja{
+                                position: absolute;
+                                top: 85%;
+                                left: 25%;
+                                justify-content: center;
+                                align-items: center;
+                                }
+            
+
+                                .idli{
+                                    width: 100px;
+                                    height: 105px;
+                                    position: absolute;
+                                    top: 25px;
+                                    left: 15%;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                
+                                #idli{
+                                    position: absolute;
+                                    top: 83%;
+                                    left: 28%;
+                                    justify-content: center;
+                                    align-items: center;
+                                    }
+
+
+
+
+
+
+                                    .boxe15{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display: inline-block;cursor: pointer;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 165px;
+                                        left:10px;animation: i both;
+                                        animation-timeline: view();
+                                        justify-content: space-around;
+                                      
+                                    }
+
+
+                                    .boxe16{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;cursor: pointer;
+                                      
+                                        justify-content: space-around;
+                                      
+                                        display: inline-block;animation: a both;
+                                        animation-timeline: view();
+                                    
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 165px;
+                                        left:40px;
+                                    }
+                                    .boxe17{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        border-radius: 15px;cursor: pointer;
+                                        position: relative;animation: ni both;
+                                        animation-timeline: view();
+                                        top: 205px;
+                                        left:10px;
+                                        justify-content: space-around;
+                                        display: inline-block;
+                                    }
+                                    .boxe18{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display:inline-block;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 205px;animation: ai both;
+                                        animation-timeline: view();cursor: pointer;
+                                        left:40px;
+                                        justify-content: space-around;
+                                        
+                                    }
+
+
+
+                                    .boxe19{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display: inline-block;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 245px;
+                                        left:10px;animation: an both;
+                                        animation-timeline: view();cursor: pointer;
+                                        justify-content: space-around;
+                                       
+                                    }
+                                    .boxe20{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;animation: an both;
+                                        animation-timeline: view();
+                                        display: inline-block;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 245px;
+                                        left:40px;cursor: pointer;
+                                        justify-content: space-around;
+                                        
+                                    }
+                                    
+                                   
+                                    
+                                    .boxe21{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display: inline-block;
+                                        border-radius: 15px;
+                                        position: relative;cursor: pointer;
+                                        top: 285px;animation: an both;
+                                        animation-timeline: view();
+                                        left:10px;
+                                        justify-content: space-around;
+                                        
+                                        
+                                    }
+                                    .boxe22{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display: inline-block;cursor: pointer;
+                                        border-radius: 15px;
+                                        position: relative;animation: ai both;
+                                        animation-timeline: view();
+                                        top: 285px;
+                                        left:40px;
+                                        justify-content: space-around;
+                                        
+                                    }
+                                    .boxe23{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;cursor: pointer;
+                                        display: inline-block;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 325px;
+                                        left:10px;animation: an both;
+                                        animation-timeline: view();
+                                        justify-content: space-around;
+                                     
+                                    }
+                                    .boxe24{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display:inline-block;
+                                        border-radius: 15px;cursor: pointer;
+                                        position: relative;
+                                        top: 325px;
+                                        left:40px;animation: ai both;
+                                        animation-timeline: view();
+                                        justify-content: space-around;
+                                        
+                                    }
+                                    .boxe25{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display: inline-block;cursor: pointer;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 355px;
+                                        left:10px;animation: an both;
+                                        animation-timeline: view();
+                                        justify-content: space-around;
+                                      
+                                    }
+                                    .boxe26{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                      
+                                        justify-content: space-around;cursor: pointer;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 355px;animation: an both;
+                                        animation-timeline: view();
+                                        left:40px;
+                                        display: inline-block;  margin-bottom: 20%;
+                                    }
+                                    .boxe27{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 325px;animation: an both;cursor: pointer;
+                                        animation-timeline: view();
+                                        left:10px;
+                                
+                                        justify-content: space-around;
+                                        display: inline-block;
+                                    }
+                                    .boxe28{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;
+                                        display:inline-block;cursor: pointer;
+                                        border-radius: 15px;animation: ni both;
+                                        animation-timeline: view();
+                                        position: relative;
+                                        top: 325px;
+                                        left:40px; 
+                                        justify-content: space-around;
+                                        
+                                    }
+                                    .boxe29{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;cursor: pointer;
+                                        display: inline-block;animation: ai both;
+                                        animation-timeline: view();
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 295px;
+                                        left:10px; 
+                                        justify-content: space-around;
+                                        margin-bottom: 10vh;
+                                       
+                                    }
+                                    .boxe30{
+                                        background-color: chocolate;
+                                        height: 150px;
+                                        width: 150px;cursor: pointer;
+                                        display: inline-block;
+                                        border-radius: 15px;
+                                        position: relative;
+                                        top: 295px;animation: an both;
+                                        animation-timeline: view();
+                                        left:40px;
+                                        justify-content: space-around;
+                                        margin-bottom: 10vh;
+                                        
+                                    }
+
+
+                                    .dosa{
+                                        width: 60x;
+                                        height: 60px;
+                                        position: absolute;
+                                        top: 45px;
+                                        left: 18%;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
+                    
+                                    #dosa{
+                                        position: absolute;
+                                        top: 75%;
+                                        left: 37%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        }
+    
+
+                                        .gulab{
+                                            width: 100px;
+                                            height: 100px;
+                                            position: absolute;
+                                            top: 20px;
+                                            left: 15%;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                        
+                                        #gulab{
+                                            position: absolute;
+                                            top: 73%;
+                                            left: 28%;
+                                            justify-content: center;
+                                            align-items: center;
+                                            }
+
+                                            .ras{
+                                                width: 110px;
+                                                height: 110px;
+                                                position: absolute;
+                                                top: 20px;
+                                                left: 10%;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                            
+                                            #ras{
+                                                position: absolute;
+                                                top: 79%;
+                                                left: 20%;
+                                                justify-content: center;
+                                                align-items: center;
+                                                }
+
+                                                .mung{
+                                                    width: 120px;
+                                                    height: 120px;
+                                                    position: absolute;
+                                                    top: 10px;
+                                                    left: 8%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                
+                                                #mung{
+                                                    position: absolute;
+                                                    top: 75%;
+                                                    left: 27%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    }
+                                                    .beat{
+                                                        width: 115px;
+                                                        height: 115px;
+                                                        position: absolute;
+                                                        top: 18px;
+                                                        left: 10%;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                    }
+                                    
+                                                    #beat{
+                                                        position: absolute;
+                                                        top: 75%;
+                                                        left: 23%;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        }
+                                                        .loki{
+                                                            width: 115px;
+                                                            height: 115px;
+                                                            position: absolute;
+                                                            top: 17px;
+                                                            left: 10%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                        }
+                                        
+                                                        #loki{
+                                                            position: absolute;
+                                                            top: 83%;
+                                                            left: 15%;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            }
+
+
+                                                            #puchka{
+                                                                padding: 2px 5px;
+                                                                left: 67%;
+                                                            }
+                                                            #double{
+                                                                padding: 2px 5px;
+                                                                left: 67%;
+                                                            }
+                                                            #lahor{
+                                                                padding: 2px 5px;
+                                                                left: 67%;
+                                                            }
+                                                            #deshi{
+                                                                padding: 2px 5px;
+                                                                left: 67%;
+                                                            }
+                                                            
+
+
+                                                            .pani{
+                                                                width: 90px;
+                                                                height: 90px;
+                                                                position: absolute;
+                                                                top: 30px;
+                                                                left: 23%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                            }
+                                            
+                                                            #pani{
+                                                                position: absolute;
+                                                                top: 77%;
+                                                                left: 25%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                }
+        
+                                                                .pizza{
+                                                                    width: 80px;
+                                                                    height: 80px;
+                                                                    position: absolute;
+                                                                    top: 40px;
+                                                                    left: 25%;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                }
+                                                
+                                                                #pizza{
+                                                                    position: absolute;
+                                                                    top: 83%;
+                                                                    left: 34%;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    }
+                                                                    .lasi{
+                                                                        width: 100px;
+                                                                        height: 100px;
+                                                                        position: absolute;
+                                                                        top: 27px;
+                                                                        left: 20%;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                    }
+                                                    
+                                                                    #lasi{
+                                                                        position: absolute;
+                                                                        top: 82%;
+                                                                        left: 37%;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                      }
+                                                                        .paratha{
+                                                                            width: 150px;
+                                                                            height: 150px;
+                                                                            position: absolute;
+                                                                            top:-5px;
+                                                                            left: 1%;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                        }
+                                                        
+#paratha{
+                                                                            position: absolute;
+                                                                            top: 75%;
+                                                                            left: 23%;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            }
+                                                                           
+                                                                            .bhindi{
+                                                                                width: 110px;
+                                                                                height: 110px;
+                                                                                position: absolute;
+                                                                                top: 25px;
+                                                                                left: 16%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #bhindi{
+                                                                                position: absolute;
+                                                                                top: 78%;
+                                                                                left: 21%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+
+
+
+
+
+                                                                              .sev{
+                                                                                width: 80px;
+                                                                                height: 80px;
+                                                                                position: absolute;
+                                                                                top: 40px;
+                                                                                left: 20%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #sev{
+                                                                                position: absolute;
+                                                                                top: 85%;
+                                                                                left: 25%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .kulfi{
+                                                                                width: 115px;
+                                                                                height: 100px;
+                                                                                position: absolute;
+                                                                                top: 30px;
+                                                                                left: 15%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #kulfi{
+                                                                                position: absolute;
+                                                                                top: 85%;
+                                                                                left: 33%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .faluda{
+                                                                                width: 130px;
+                                                                                height: 100px;
+                                                                                position: absolute;
+                                                                                top: 30px;
+                                                                                left: 10%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #faluda{
+                                                                                position: absolute;
+                                                                                top: 81%;
+                                                                                left: 30%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .mock{
+                                                                                width: 100px;
+                                                                                height: 100px;
+                                                                                position: absolute;
+                                                                                top: 30px;
+                                                                                left: 15%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #mock{
+                                                                                position: absolute;
+                                                                                top: 85%;
+                                                                                left: 20%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            .chaval{
+                                                                                width: 100px;
+                                                                                height: 80px;
+                                                                                position: absolute;
+                                                                                top: 40px;
+                                                                                left: 19%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                            }
+                                                            
+                                                                            #chaval{
+                                                                                position: absolute;
+                                                                                top: 85%;
+                                                                                left: 28%;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                              }
+
+
+                                                                              
+                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+#paymentModal {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+#paymentModal button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

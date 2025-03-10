@@ -1,0 +1,187 @@
+#bop{
+    background-color: rgba(128, 128, 128, 0.603);
+
+    height: 380px;
+    width: 380px;
+    
+top: 19.5%;
+ bottom: 8%;
+    border-radius: 15px;
+    position: absolute;
+    left:33%;
+}
+
+h1{
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    top: 5%;
+    left: 19.05%;
+    justify-content: center;
+    overflow: hidden;
+}
+p{
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+    position: relative;
+    top: 4%;
+    left: 33%;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+#email{
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 39%;
+    left: 22%;
+}
+#pass{
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 22%;
+}
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 38%;
+    background-color: rgb(164, 182, 42);
+    cursor: pointer;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    animation: donut both;
+    animation-timing-function: ease-in-out;
+    animation-duration:7s;
+    animation-delay:0ms;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+    top: 65%;
+    left: 35%;
+
+}
+@keyframes donut{
+    from{
+       
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    to{
+
+        transform: translateY(-50%);
+        opacity: 10;
+    }
+}
+
+@keyframes donut2{
+    from{
+       
+        transform: translatey(-30%);
+        opacity: 0;
+    }
+    to{
+
+        transform: translatey(150%);
+   opacity: 3;
+    }
+}
+.img2{
+    height: 60px;
+    width: 60px;
+    animation: donut2 both;
+    animation-timing-function: ease-in-out;
+    animation-duration:7s;
+    animation-delay:3ms;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 21%;
+    left: 57%;
+}
+
+
+@media only screen and  (max-width:650px){
+    
+    #bop{
+        background-color: rgba(128, 128, 128, 0.603);
+    
+        height: 380px;
+        width: 280px;
+        
+    top: 19.5%;
+     bottom: 8%;
+        border-radius: 15px;
+        position: absolute;
+        left:10%;
+    }
+    
+    h1{
+        font-size: 25px;
+        color: white;
+        text-transform: uppercase;
+        position: relative;
+        top: 5%;
+        left: 13%;
+        justify-content: center;
+        overflow: hidden;
+    }
+    p{
+        font-size: 13px;
+        color: white;
+        text-transform: capitalize;
+        position: relative;
+        top: 4%;
+        left: 27%;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+
+    #email{
+        border-radius: 16px;
+        padding: 10px 20px;
+        text-align: center;
+        position: absolute;
+        top: 39%;
+        left: 10%;
+    }
+    #pass{
+        border-radius: 16px;
+        padding: 10px 20px;
+        text-align: center;
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+    button{
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-align: center;
+        position: absolute;
+        top: 75%;
+        left: 35%;
+        background-color: rgb(164, 182, 42);
+        cursor: pointer;
+    }
+
+#bg{
+    background-size: cover;
+    box-sizing: border-box;
+    height:105vh;
+    width:55vh;
+}
+
+
+
+}
